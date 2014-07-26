@@ -1,0 +1,49 @@
+﻿Build started 19/7/2014 10:04:26 PM.
+     1>Project "C:\Users\Omar\Desktop\41\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\omar\desktop\41\game\pacman_.h(299): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman_.h(301): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\pacman_.h(303): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman_.h(308): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_piece.h(333): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess_piece.h(414): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess_piece.h(533): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess_piece.h(689): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess_piece.h(775): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess_board.h(18): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_board.h(19): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_computer.h(42): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess_computer.h(87): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess_computer.h(127): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_computer.h(128): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_computer.h(137): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess.h(123): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(138): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(151): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess.h(202): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(204): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\chess.h(205): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(310): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(234): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\pacman.h(283): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(286): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(289): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(327): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(339): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake_.h(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake_.h(80): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar\desktop\41\game\snake_.h(82): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake_.h(85): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake.h(211): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman_.h(177): warning C4715: 'Monster::bfs' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Omar\Desktop\41\Debug\Game.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Omar\Desktop\41\Debug\Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Omar\Desktop\41\Debug\Game.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\Users\Omar\Desktop\41\Debug\Game.exe not found or not built by the last incremental link; performing full link
+     1>sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "C:\Users\Omar\Desktop\41\Game\Game.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.79

@@ -1,0 +1,32 @@
+﻿Build started 20/7/2014 12:54:39 PM.
+     1>Project "C:\Users\Omar\Desktop\41\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\omar\desktop\41\game\pacman_.h(299): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman_.h(303): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman_.h(308): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_board.h(18): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_board.h(19): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(161): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(176): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(240): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(243): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(335): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(350): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(214): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(226) : see declaration of 'freopen'
+     1>c:\users\omar\desktop\41\game\pacman.h(283): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(286): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(289): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(327): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(339): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake_.h(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake_.h(82): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake_.h(85): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake.h(211): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Done Building Project "C:\Users\Omar\Desktop\41\Game\Game.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.95

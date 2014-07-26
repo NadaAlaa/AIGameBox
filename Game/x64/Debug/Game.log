@@ -1,0 +1,35 @@
+﻿Build started 25/7/2014 11:08:35 AM.
+     1>Project "C:\Users\Omar\Desktop\41\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\omar\desktop\41\game\pacman_.h(299): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman_.h(303): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman_.h(308): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_board.h(18): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_board.h(19): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess_computer.h(137): warning C4244: 'initializing' : conversion from 'double' to '__int64', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(161): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(176): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(240): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(243): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(335): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\omar\desktop\41\game\chess.h(350): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(283): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(286): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(289): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(327): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman.h(339): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake_.h(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake_.h(82): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake_.h(85): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar\desktop\41\game\snake.h(211): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\omar\desktop\41\game\pacman_.h(177): warning C4715: 'Monster::bfs' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Omar\Desktop\41\x64\Debug\Game.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Omar\Desktop\41\x64\Debug\Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Omar\Desktop\41\x64\Debug\Game.lib" /MACHINE:X64 x64\Debug\main.obj
+         Game.vcxproj -> C:\Users\Omar\Desktop\41\x64\Debug\Game.exe
+     1>Done Building Project "C:\Users\Omar\Desktop\41\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.18
