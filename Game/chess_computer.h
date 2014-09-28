@@ -97,7 +97,7 @@ private:
 							curBoard.board[PM[k].first][PM[k].second]->moves++;
 
 							//-----------------------------------------------------
-							//If the move is a capture, we search for it's consequences using quiescence search
+							//If the move is a capture, we search for its consequences using quiescence search
 							if (toPiece->pieceType!=blank) {
 								if (turn == maximize) alpha = max(alpha, Quiescence(curBoard, (turn == White ? Black : White), alpha, beta));
 								else beta = min(beta, Quiescence(curBoard, (turn == White ? Black : White), alpha, beta));
